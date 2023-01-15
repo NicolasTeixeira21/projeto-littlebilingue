@@ -10,6 +10,8 @@ header {
     background-image: linear-gradient(to right, #FBC2EB, #A18CD1 );
     width: 100vw;
     height: 110px;
+    display: flex;
+    justify-content: space-between;
 }
 
 img {
@@ -17,4 +19,16 @@ img {
     padding-top: 5px;
     width: 175px;
     height: 95px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul > li {
+    padding: 20px;
+    margin: 30px;
+    flex-direction: row;
+    justify-content: space-around;
 }
